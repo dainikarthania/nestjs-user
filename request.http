@@ -1,0 +1,21 @@
+### sign up user
+POST http://localhost:5001/api/users/signup
+content-type: application/json
+
+{
+    "first_name" : "test",
+    "last_name"  : "test",
+    "email"      : "test@mail.com",
+    "password"   : "test123"
+}
+
+
+### signin user
+POST http://localhost:5001/api/users/login
+content-type: application/json
+
+
+{
+    "email"      : "test@mail.com",
+    "password"   : "test123"
+}
